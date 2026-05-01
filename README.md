@@ -1,23 +1,34 @@
-# Secure-Coding-Portfolio
+# Secure Coding Portfolio
 
-SNHU CS-405 (Secure Coding) portfolio repository. This repo contains written course artifacts, static analysis results, and C++ project source code used to demonstrate secure coding practices and security-focused development workflows.
+SNHU CS-405 Secure Coding portfolio repository. This repo contains written course artifacts, static analysis results, and C++ project source code used to demonstrate secure coding practices and security-focused development workflows.
+
+## Project Value
+
+This portfolio demonstrates secure coding concepts through written analysis, static code review, C++ source inspection, encryption exercises, and security-focused documentation. It shows experience with identifying insecure coding patterns, documenting risk, using static analysis tools, and applying secure development practices in a coursework environment.
+
+## Demo Video
+
+[Demo video](https://www.youtube.com/watch?v=svkgT7fPG4w)
 
 ## Contents
 
-### Writing and Documentation (`docs/`)
-- **Portfolio Reflection / Journal** (Word)
-- **Security Policy Template** (Word)
-- **Static Code Analysis Write-Up** (Word)
-- **Presentation Artifacts** (PowerPoint/Word)
+### Writing and Documentation
 
-### Code Projects (`projects/`)
+- Portfolio reflection / journal
+- Security policy template
+- Static code analysis write-up
+- Presentation artifacts
 
-#### QuestionableCode (Static Analysis with Cppcheck + Visual Studio)
+### Code Projects
+
+#### QuestionableCode: Static Analysis with Cppcheck and Visual Studio
+
 - Visual Studio solution and project files
 - `QuestionableCode.cpp`
-- `cppcheck_results.xml` (saved Cppcheck results)
+- `cppcheck_results.xml` saved Cppcheck results
 
-#### M5 Encryption (C++ File Encryption Exercise)
+#### M5 Encryption: C++ File Encryption Exercise
+
 - Visual Studio solution and project files
 - `Encryption.cpp`
 - Sample files:
@@ -27,37 +38,40 @@ SNHU CS-405 (Secure Coding) portfolio repository. This repo contains written cou
 
 ## Suggested Repository Layout
 
-This layout is recommended for a clean, professional structure:
+A future cleanup could organize the repository into this structure:
 
-docs/
-presentation/
-analysis/
-projects/
-questionable-code/
-m5-encryption/
+    .
+    ├── docs/
+    ├── presentation/
+    ├── analysis/
+    └── projects/
+        ├── questionable-code/
+        └── m5-encryption/
 
-
-## Build and Run (Visual Studio)
+## Build and Run
 
 ### Requirements
-- Visual Studio (Windows)
+
+- Visual Studio on Windows
 - C++17 or newer
 
 ### Steps
+
 1. Open the solution for the project you want to run:
    - `QuestionableCode.sln`
    - `M5_Encryption.sln`
-2. Select `Debug` or `Release`
-3. Build the solution
-4. Run the project
+2. Select `Debug` or `Release`.
+3. Build the solution.
+4. Run the project.
 
 ## Static Analysis Notes
+
 - `cppcheck_results.xml` stores Cppcheck output for review.
-- If you re-run analysis, save updated outputs in `analysis/` to keep results separate from source code.
+- If static analysis is re-run, updated results should be saved separately from source code, preferably in an `analysis/` folder.
 
-## Repo Hygiene (Important)
+## Repository Hygiene
 
-Do **not** commit Visual Studio build or user-specific artifacts. Ensure these are ignored (via `.gitignore`):
+Do not commit Visual Studio build outputs, cache files, or user-specific artifacts. These should be ignored through `.gitignore`:
 
 - `.vs/`
 - `*.suo`
@@ -70,4 +84,5 @@ Do **not** commit Visual Studio build or user-specific artifacts. Ensure these a
 - `x64/`
 
 ## Academic Integrity
-This repository contains my own coursework artifacts and evidence of process (analysis, revisions, and results). If reused later, it should be properly cited and remain consistent with SNHU academic integrity expectations.
+
+This repository contains my own coursework artifacts and evidence of my secure coding process, including analysis, revisions, and results. Any future reuse should follow SNHU academic integrity expectations and include proper citation where required.
