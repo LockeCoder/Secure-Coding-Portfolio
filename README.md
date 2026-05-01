@@ -155,4 +155,8 @@ It is strongest for roles involving software engineering, cybersecurity, applica
 
 ## Academic Integrity
 
-This repository contains my own coursework artifacts and evidence of my secure coding process, including analysis, revisions, and results. Any future reuse should follow SNHU academic integrity expectations and include proper citation where required.
+## Academic Portfolio Notice
+
+This repository is shared as an academic portfolio artifact. Source code written by me is provided under the repository license where applicable. Course-provided materials, assignment prompts, rubrics, starter files, datasets, screenshots, logos, artwork, or other third-party assets remain the property of their respective owners.
+
+Please do not submit this work as your own coursework.
